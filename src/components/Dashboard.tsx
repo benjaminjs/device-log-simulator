@@ -19,7 +19,7 @@ export const Dashboard = () => {
   const [value, copy] = useCopyToClipboard();
 
   return (
-    <Container fluid style={{ overflow: "scroll" }}>
+    <Container fluid style={{ overflow: "auto" }}>
       <Row gap={1}>
         <Col>
           <Text

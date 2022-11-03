@@ -57,7 +57,7 @@ export const Devices = () => {
 
       <Grid.Container gap={2}>
         <Grid xs={12} css={{ pt: 0 }}>
-          <Container fluid gap={0} style={{ height: 350, overflow: "scroll" }}>
+          <Container fluid gap={0} style={{ height: 350, overflow: "audo" }}>
             {deviceIds.length > 0 ? (
               deviceIds.map((id) => (
                 <DeviceItem key={id} device={devices[id]} />

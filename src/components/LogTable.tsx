@@ -173,15 +173,13 @@ export const LogTable = () => {
           </Text>
         </Col>
       </Row>
-      <Row style={{ height: 600, overflow: "scroll" }}>
+      <Row style={{ height: 600, overflow: "auto" }}>
         <Col>
           <Table
             aria-label="Example table with dynamic content"
             compact
             sticked
             style={{
-              height: "200px",
-              overflow: "scroll",
               minWidth: "100%",
             }}
           >
