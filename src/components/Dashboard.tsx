@@ -27,6 +27,7 @@ export const Dashboard = () => {
             css={{
               color: "$accents7",
               tt: "uppercase",
+              mt: 15,
               mb: 0,
             }}
           >

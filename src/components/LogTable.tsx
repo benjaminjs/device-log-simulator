@@ -169,7 +169,9 @@ export const LogTable = () => {
               fs: "0.8rem",
             }}
           >
-            {lastQueryTime ? `${formatDistanceToNow(lastQueryTime)} ago` : ""}
+            {lastQueryTime
+              ? `last ran: ${format(lastQueryTime, "hh:mm a")}`
+              : ""}
           </Text>
         </Col>
       </Row>
