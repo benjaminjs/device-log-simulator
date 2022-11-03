@@ -3,7 +3,7 @@ import { Container, Grid } from "@nextui-org/react";
 import { Dashboard } from "./components/Dashboard";
 
 const App = () => (
-  <Container fluid gap={0} style={{ width: "100%" }}>
+  <Container fluid gap={0} style={{ maxWidth: "100%" }}>
     <Grid.Container gap={0}>
       <Grid xs={12} sm={5} md={4}>
         <Devices />
